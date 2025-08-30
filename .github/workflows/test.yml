@@ -1,6 +1,11 @@
 
 name: Test
 
+# Use bash by default on all platforms.
+defaults:
+  run:
+    shell: bash
+
 on:
   workflow_dispatch:
   push:
