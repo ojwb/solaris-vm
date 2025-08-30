@@ -3,17 +3,7 @@ name: Test
 
 on:
   workflow_dispatch:
-  release:
-    types: [ published ]
   push:
-    branches:
-      - '*'
-    paths:
-      - '**.sh'
-      - '.github/workflows/test.yml'
-      - 'index.js'
-      - 'conf/*'
-      - 'hooks/*'
 
 
 
